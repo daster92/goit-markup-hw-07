@@ -28,7 +28,6 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid tomato; */
 }
 img {
   display: block;
@@ -137,7 +136,7 @@ img {
 }
 
 /* Hero */
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -170,7 +169,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 .backdrop {
   position: fixed;
   top: 0;
@@ -289,7 +288,7 @@ img {
 }
 .checkbox:checked + .policy-text::before {
   background-size: contain;
-  background: url(../images/icon\ check.svg);
+  background: url(../images/icon-check.svg);
   background-origin: border-box;
   border: none;
 }
@@ -376,7 +375,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Section */
-.section-block {
+/* .section-block {
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -418,9 +417,9 @@ img {
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-bg-color);
-}
+} */
 /* Features */
-.feature-list {
+/* .feature-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -459,9 +458,9 @@ img {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 /* Team */
-.team-list {
+/* .team-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -528,9 +527,9 @@ img {
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* Clients */
-.section-clients {
+/* .section-clients {
   display: flex;
   justify-content: center;
 }
@@ -563,7 +562,7 @@ img {
   border: 1px solid var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Button */
 .button {
@@ -624,9 +623,9 @@ img {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
-.logo-second {
+/* .logo-second {
   color: var(--primary-bg-color);
-}
+} */
 /* Contacts */
 .addres-list {
   margin-top: 20px;
