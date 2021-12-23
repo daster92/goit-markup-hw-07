@@ -53,16 +53,16 @@ img {
 }
 
 /* Page header */
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
-}
+} */
 /* Main nav */
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
+} */
 /* site nav */
-.site-nav {
+/* .site-nav {
   display: flex;
   margin-left: 93px;
 }
@@ -99,9 +99,9 @@ img {
 }
 .site-nav .link.current {
   color: var(--accent-color);
-}
+} */
 /* auth nav */
-.auth-nav {
+/* .auth-nav {
   margin-left: auto;
   display: flex;
 }
@@ -133,7 +133,7 @@ img {
 }
 .auth-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
 /* Hero */
 /* .hero {
@@ -565,7 +565,7 @@ img {
 } */
 
 /* Button */
-.button {
+/* .button {
   border-radius: 4px;
   padding: 10px 32px;
 
@@ -622,12 +622,12 @@ img {
 .button-link.current {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
-}
+} */
 /* .logo-second {
   color: var(--primary-bg-color);
 } */
 /* Contacts */
-.addres-list {
+/* .addres-list {
   margin-top: 20px;
   color: var(--primary-bg-color);
   font-style: normal;
@@ -646,7 +646,6 @@ img {
   margin-top: 9px;
 }
 .contacts-list .link {
-  /* margin-top: 9px; */
   color: var(--second-accent-color);
   font-style: normal;
   font-size: 14px;
@@ -660,9 +659,9 @@ img {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* Перечень услуг */
-.portfolio-cards {
+/* .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -726,7 +725,7 @@ img {
 .cards-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 /* Подвал */
 .basement {
   padding-top: 60px;
