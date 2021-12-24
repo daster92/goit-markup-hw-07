@@ -4,8 +4,7 @@
 }
 /* Main nav */
 .main-nav {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
 }
 /* site nav */
 .site-nav {
@@ -55,8 +54,7 @@
   margin-right: 50px;
 }
 .auth-nav .link {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   padding-top: 32px;
   padding-bottom: 32px;

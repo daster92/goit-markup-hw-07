@@ -6,15 +6,15 @@
 .section-clients-item {
   width: 170px;
   height: 92px;
+  & + & {
+    margin-left: 30px;
+  }
 }
-.section-clients-item + .section-clients-item {
-  margin-left: 30px;
-}
+
 .section-clients-link {
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;

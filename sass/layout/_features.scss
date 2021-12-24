@@ -13,8 +13,7 @@
   margin-right: 30px;
 }
 .feature-list .about {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   width: 270px;
   height: 120px;
@@ -23,8 +22,7 @@
   border-radius: 4px;
 }
 .feature-list .icon {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
 }
 .feature-list .title {

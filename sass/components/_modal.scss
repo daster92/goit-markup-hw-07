@@ -12,10 +12,6 @@
     transform: translate(-50%, -50%) scale(0.2);
   }
 }
-// .backdrop.is-hidden {
-//   opacity: 0;
-//   pointer-events: none;
-// }
 
 .modal {
   position: fixed;
@@ -39,20 +35,18 @@
   background-color: var(--primary-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   cursor: pointer;
   transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover .close-icon {
+    fill: var(--accent-color);
+    transition: fill 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.close-icon {
-  transition: fill 250ms linear;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-close:hover .close-icon {
-  fill: var(--accent-color);
-}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -60,10 +54,7 @@
 }
 .modal-title {
   padding-bottom: 12px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.2px;
-  letter-spacing: 0.03em;
+  @include font(20px, 1.2, 0.03em, 700);
   color: var(--title-text-color);
   text-align: center;
 }
@@ -77,6 +68,14 @@
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+}
+.form-label {
+  position: absolute;
+  padding-bottom: 10px;
+  bottom: 100%;
+  left: 0px;
+  @include font(12px, 1.2, 0.01em, 400);
+  color: rgba(117, 117, 117, 1);
 }
 .policy-field {
   margin-top: 20px;
@@ -113,17 +112,7 @@
   background-origin: border-box;
   border: none;
 }
-.form-label {
-  position: absolute;
-  padding-bottom: 10px;
-  bottom: 100%;
-  left: 0px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.2px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 1);
-}
+
 .input-icon {
   position: absolute;
   margin-left: 12px;
@@ -149,10 +138,10 @@
   &:focus {
     border-color: var(--accent-color);
   }
-}
-.form-input:focus + .input-icon {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  &:focus + .input-icon {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .coment {
