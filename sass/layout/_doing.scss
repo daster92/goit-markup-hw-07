@@ -1,31 +1,21 @@
 /* Section */
-.section-block {
+.doing {
   padding-top: 0;
   padding-bottom: 94px;
 }
-.section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-}
-.doing {
+.doing-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
 }
-.doing .item {
+.doing-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
-.thumb {
+.doing-list__thumb {
   position: relative;
 }
-.thumb .labe {
+.doing-list__labe {
   position: absolute;
   width: 100%;
   height: 70px;
