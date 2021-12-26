@@ -493,7 +493,7 @@ body {
 
 .forms__label {
   position: absolute;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   bottom: 100%;
   left: 0px;
   font-size: 12px;
